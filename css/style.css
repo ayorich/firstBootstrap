@@ -1,0 +1,70 @@
+@font-face {
+            font-family: 'amaranthbold';
+            src: url('../fonts/amaranth-regular-webfont.woff2') format('woff2'),
+                 url('../fonts/amaranth-regular-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+         }
+    body{
+        box-sizing: border-box;
+        font-family: 'amaranthbold';
+    }
+
+        #wrapper{
+    padding-left: 0;
+    padding-right: 0;
+    /*margin-left: 0;
+    margin-right: 0;*/
+    }
+    /*profile section*/
+        .toppic{
+            background-image: url(../images/bg.jpg);
+            background-repeat: no-repeat;
+            background-position:;
+            background-size: cover;
+            content: "";
+            padding:12%;
+            }
+        .mt-c1{
+            /*margin-top: -150px;*/
+            position: relative;
+            margin-top: -10%;
+        }
+        
+        /*experience section*/
+        #banner{
+    background-image: url(../images/section-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+                }
+        .overlay{
+    background-color:rgba(4, 69, 107, 0.6);
+    /*padding: 40px 25px;*/
+}
+  .mainbox{
+            background-color:grey;
+            /*overflow: hidden;*/
+            
+
+               }
+ .box1, .box2{
+            background-color: #fff;
+           /* height: auto;*/
+            border-radius: 20px;
+
+                 border-color:red; border-width:1px; border-style:dashed;
+            }
+ 
+    p strong{
+            color: lightgreen;
+        }
+        .greycolor{
+            color: grey;
+        }
+   /* @media screen and (max-width: 411px) {
+  .box1 .extrasmall{
+    max-width: 150% !important;
+
+  }
+}*/
+        
